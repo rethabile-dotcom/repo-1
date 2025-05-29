@@ -1,0 +1,37 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+  <h1 id="title">Survey Form</h1>
+  </head>
+  <body>
+<p id="description">Employees Survey</p>
+<form id="survey-form" >
+<label id="name-label">Name<input id="name" type="text" required placeholder="name"></label>
+<label id="email-label">Email<input id="email" type="email" required placeholder="email"></label>
+<label id="number-label">Number<input id="number" type="number" min="10" max="10" placeholder="number"></label>
+<select id="dropdown">
+<option></option>
+<option></option>
+<input type="radio" value="name" name="option">
+<input type="radio" value="email" name="option">
+<input type="checkbox" value="name">
+<input type="checkbox" value="email">
+<textarea></textarea>
+<button id="submit">
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+select{
+ id: dropdown; 
+}
+
+
+** end of undefined **
+
